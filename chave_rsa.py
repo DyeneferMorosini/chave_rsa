@@ -70,8 +70,8 @@ def verify(message, signature, pub_key):
     return signer.verify(digest, signature)
 
 def main():
-    msg1 = b"Hello Tony, I am Jarvis!"
-    msg2 = b"Hello Toni, I am Jarvis!"
+    msg1 = b"Digite seu texto claro aqui"
+    msg2 = b"Adicione mais um texto"
 
     keysize = 2048
 
